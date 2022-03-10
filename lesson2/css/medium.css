@@ -1,0 +1,14 @@
+@media screen and (min-width: 30em) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 2fr 2fr 2fr;
+    }
+    section {
+        margin-bottom: 1em;
+        align-self: stretch;
+    }
+    #lds {
+        grid-column: 1 / 3;
+    }
+}

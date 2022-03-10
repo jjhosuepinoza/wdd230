@@ -1,0 +1,125 @@
+body{
+	padding: 5px 25px;
+	font-size: 18px;
+    background-color: #227C9D;
+    color: rgb(10, 7, 7);
+	max-width: 960px;
+	margin: 0 auto;
+}
+header{
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	padding: 2em;
+    background-color: #17C3B2;
+	border-radius: 10px;
+    box-shadow: 3px 3px 5px #FEF9EF;
+	color: #fff;
+}
+.text-col{
+	padding-left: 2em;
+	font-family: 'Poppins', sans-serif;
+	font-size: 24px;
+}
+main{
+	padding: 1em 2em;
+		max-width: 767px;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		font-size: 0.8rem;
+	}
+	main {
+		max-width: 767px;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: 1fr;
+		font-size: 0.8rem;
+	}
+	
+	main section h2 {
+		color: #536878;
+	}
+	
+	main section {
+		margin: 0.5rem;
+		border: 1px solid #bbb;
+		padding: 0 1rem;
+		background-color: #eee;
+	}
+	
+	main section:nth-child(2) {
+		display: none;
+		margin: 0.5rem;
+	}
+	
+	.colimage {
+		box-shadow: 0 0 30px #333;
+	}
+	
+	/* Tablet Views ******************************/
+	@media only screen and (min-width: 37.5em) {
+		main {
+			grid-template-columns: 1fr 1fr;
+		}
+	
+		main section:nth-child(2) {
+			display: block;
+		}
+	
+		main section:nth-child(3) {
+			grid-column: span 2;
+		}
+	
+		main section picture {
+			display: block;
+		}
+		main section picture img {
+			width: 100%;
+			height: auto;
+			border: 1px solid #bbb;
+		}
+	}
+	
+	/* Desktop Views ****************************/
+	@media only screen and (min-width: 60em) {
+		main {
+			grid-template-columns: 1fr 1fr 1fr;
+		}
+	
+		main section:nth-child(3) {
+			grid-column: span 1;
+		}
+	}
+	
+img {
+	border: 1px solid #ddd;
+	box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, .5);
+	border-radius: 4px;
+	width: 240px;
+}
+
+a p{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+hr{
+	height: 1px;
+    	border-top: 1px solid #000;
+    	border-bottom: 1px solid #888;
+}
+p {
+    border-top: 1px solid rgb(78, 76, 76);
+    font-style: italic;
+}
+footer {
+    background-color: #17C3B2;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 3px 3px 5px #FEF9EF;
+}
