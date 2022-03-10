@@ -254,54 +254,9 @@ p{
 
 
         
-        *{
-        box-sizing:border-box;
-        margin:0 ;
-        padding:0; 
-       }
-       html{
-           
-           height:100%;
-       }
-       .cards{
-           
-           font-family: 'Open Sans', sans-serif;
-           font-size:1em;
-           min-height: 100%;
-           background-color: white;
-           
-       }
-      
-       .cards{
-           margin-top: 20px;
-           text-align: center;
-           display: flex;
-           justify-content: center;
-           flex-wrap: wrap;
-          
-          gap: 10px;
-           
-        }
-          
-          
-        .cards  >*{
-            height: auto;
-            width: 480px;
-            padding: 5px;
-            background-color: rgb(247, 219, 130);
-            box-shadow:-1px 1px 7px 0px black;
-            border-radius: 4px;
-            text-align: center;
-        }
+     
        
        
-       
-      .data.json img{
-        width: 360px;
-        height: 460px;
-        border-radius: 4px;
-       }
-    
        
 
 
