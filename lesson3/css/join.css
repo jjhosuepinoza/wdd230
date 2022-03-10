@@ -1,0 +1,61 @@
+ .join_survey {
+    grid-area: join_survey;
+	margin: 0;
+	border: 1px solid rgb(128, 147, 156);
+	padding: 0.5rem;
+	text-align: center;
+	background-color: rgb(62, 136, 206);
+}
+
+form {
+	display: grid;
+	grid-gap: 0.25rem;
+	grid-template-columns: 1fr 1fr;
+	width: 400px;
+	align-items: center;
+    text-align: center;
+}
+
+/* h1 {
+	font-size: 1.5rem;
+} */
+
+label,
+input,
+textarea,
+select,
+.button2 {
+	padding: 0.35rem;
+	font-size: 1.1rem;
+}
+
+label {
+	text-align: center;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+	background-color: rgb(209, 241, 230);
+}
+
+
+.grid-container{
+    display:grid; 
+    gap:10px;
+    grid-template: 
+    "header" auto
+    "join_survey" auto
+    "footer" auto;
+}
+
+@media (min-width:37.5em){
+.grid-container{
+    display: flex;
+    display:grid; 
+    gap:10px;
+    grid-template: 
+    "header header header" auto
+    "join_survey join_survey join_survey " auto
+    "footer footer footer" auto
+     /1fr 1fr 1fr;}}

@@ -1,0 +1,25 @@
+@media (min-width:600px){
+    .join{
+        display: inline-grid;
+        grid-area: join;
+   } 
+    .grid-container{
+        display:grid; 
+        gap:10px;
+        grid-template: 
+        "header header header" auto
+        "chamber chamber chamber " auto
+        "news    news     news"250px
+        "aside aside aside" auto
+        "join join join" auto
+        "event event weather"auto
+        "footer footer footer" auto
+         /1fr 1fr 1fr;
+}
+.aside{
+    
+            grid-template-columns:25% 25% 50% ;
+            grid-template-areas:
+            "delivery delivery companies" ;
+        } 
+}
