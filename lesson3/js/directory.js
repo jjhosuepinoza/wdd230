@@ -4,7 +4,7 @@ const cards = document.querySelector('.cards');
 fetch(requestURL).then(function (response) {return response.json();})
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
-    const companies = jsonObject['companies'];
+    const companies = jsonObject['Companies'];
     companies.forEach(displayCompanies);
   });
 
@@ -13,7 +13,7 @@ fetch(requestURL).then(function (response) {return response.json();})
     let companyName = document.createElement('h2');
     let companyAddress = document.createElement('p');
     let companyPhone = document.createElement('p');
-    let companySite = document.createElement('a');
+    let companySite = document.createElement('u');
     let logo = document.createElement('img');
 
     companyName.textContent = `${company.name}`; 
@@ -25,7 +25,7 @@ fetch(requestURL).then(function (response) {return response.json();})
     logo.setAttribute('alt', `Logo of ${company.name}`);
     logo.setAttribute('loading', 'lazy');
 
-    card.appendChild(companyName);
+    card.appendChild(logo);
     card.appendChild(companyAddress);
     card.appendChild(companyPhone);
     card.appendChild(companySite);
