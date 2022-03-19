@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+/* 
+*{
+    
+    box-sizing:border-box;
+    margin:0 ;
+    padding:0; 
+   }
+    */
+ 
+  
+   .cards{
+       margin-top: 20px;
+       display: flex;
+       text-align: center;
+       justify-content: center;
+       flex-wrap: wrap;
+       gap: 10px;
+       
+    }
+      
+      
+    .cards  >*{
+        align-items: center;
+        width: 500px;
+        padding: 5px;
+        background-color: rgb(157, 172, 207);
+        box-shadow:-1px 1px 7px 0px black;
+        border-radius: 4px;
+        text-align: center;
+    }
+   
+ 
+   /* img{
+    width: 360px;
+    height: 460px;
+    border-radius: 4px;
+   } */
