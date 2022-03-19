@@ -1,0 +1,87 @@
+{
+	"Companies": [{
+			"name": "Andersen",
+			"address": " Rein street 52",
+			"phone": " 20 26 12345",
+			"site": "https://hu.andersen.com/",
+			"imageurl": "https://cdn.glitch.global/b6de83ad-1877-4ed7-8cf4-34934d3cadee/andersen.png?v=1646534752120"
+		},
+		{
+			"name": "Coop",
+			"address": "Roots street 42",
+			"phone": "20 26 13452",
+			"site": "https://www.coop.hu/",
+			"imageurl": "https://cdn.glitch.global/b6de83ad-1877-4ed7-8cf4-34934d3cadee/coop.png?v=1646534756961"
+		},
+		{
+			"name": "Folprint",
+			"address": "Wings street 23",
+			"phone": "20 26 78945",
+			"site": "https://folprintnyomda.hu/",
+			"imageurl": "https://cdn.glitch.global/b6de83ad-1877-4ed7-8cf4-34934d3cadee/folprint.jfif?v=1646534759827"
+		},
+		{
+			"name": "Green Brand",
+			"address": "Apples street 25",
+			"phone": "20 26 45689",
+			"site": "https://green-brands.hu/",
+			"imageurl": "https://cdn.glitch.global/b6de83ad-1877-4ed7-8cf4-34934d3cadee/green.jfif?v=1646534762577"
+		},
+		{
+			"name": "LogMeIn",
+			"address": "Pencils street 12",
+			"phone": "20 26 25879",
+			"site": "https://www.logmein.com/es/",
+			"imageurl": "https://cdn.glitch.global/b6de83ad-1877-4ed7-8cf4-34934d3cadee/lagmein.jfif?v=1646534766190"
+		},
+		{
+			"name": "MOL",
+			"address": "Oil street 2",
+			"phone": "20 26 78521",
+			"site": "https://mol.hu/hu/",
+			"imageurl": "https://cdn.glitch.global/b6de83ad-1877-4ed7-8cf4-34934d3cadee/mol.jfif?v=1646534769851"
+		},
+		{
+			"name": "Otp",
+			"address": "Bank street 15",
+			"phone": "20 26 4789",
+			"site": "https://www.otpbank.hu/portal/hu/Maganszemelyek",
+			"imageurl": "https://cdn.glitch.global/b6de83ad-1877-4ed7-8cf4-34934d3cadee/otp.png?v=1646534848220"
+		},
+		{
+			"name": "Pöttyös",
+			"address": "Chocolate street 25",
+			"phone": "20 26 57891",
+			"site": "https://www.pottyos.hu/",
+			"imageurl": "https://cdn.glitch.global/b6de83ad-1877-4ed7-8cf4-34934d3cadee/pottyos.png?v=1646534775871"
+		},
+		{
+			"name": "Prezi",
+			"address": "Runner street 56",
+			"phone": "20 26 45698",
+			"site": "https://prezi.com/en/",
+			"imageurl": "https://cdn.glitch.global/b6de83ad-1877-4ed7-8cf4-34934d3cadee/prezi.png?v=1647731397217"
+		},
+		{
+			"name": "Semcorp",
+			"address": "Ready street 23",
+			"phone": "20 26 48956",
+			"site": "http://en.semcorpglobal.com/",
+			"imageurl": "https://cdn.glitch.global/b6de83ad-1877-4ed7-8cf4-34934d3cadee/semcorp.png?v=1646534783635"
+		},
+		{
+			"name": "Soproni",
+			"address": "Trunk street 23",
+			"phone": "20 26 45897",
+			"site": "https://www.soproni.hu/",
+			"imageurl": "https://cdn.glitch.global/b6de83ad-1877-4ed7-8cf4-34934d3cadee/soproni.png?v=1646534821816"
+		},
+		{
+			"name": "Szentkirályi ",
+			"address": "Road street 23",
+			"phone": "20 26 98786",
+			"site": "https://www.szentkiralyi.hu/",
+			"imageurl": "https://cdn.glitch.global/b6de83ad-1877-4ed7-8cf4-34934d3cadee/szen.jfif?v=1646534790342"
+		}
+	]
+}
