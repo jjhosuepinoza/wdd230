@@ -1,0 +1,92 @@
+
+ @media (min-width:60em){
+    
+    .picture{
+        height:120px;
+        width: 120px;
+    }
+   .grid-container{
+     
+grid-template: 
+   "header header header header" auto
+   "event chamber chamber aside" auto
+   "weather chamber chamber aside"auto
+   "join news news aside"auto
+   "footer footer footer footer" auto
+   /1fr 1fr 1fr 1fr;
+   }
+   
+    .strategies{
+        display:table;
+       text-align: center; }    
+    .event,.weather,.join{
+        margin-left: 50px;
+       
+       }
+       
+    .aside{
+           margin-right: 50px;
+           display:grid;
+           grid-template:
+           "delivery"1fr
+           "companies" 1fr
+           "strategies"1fr;
+          
+   }
+   .chamber{background-image: url("https://cdn.glitch.global/b871c8c6-5f77-4d6d-a1fd-f6f97a229c4a/original.webp?v=1644711513164");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+
+       ;}
+
+       /* .chamber{display: flex;} */
+       .text{
+           text-shadow: 2px 2px 2px black,
+           2px 2px 1px black; 
+           margin-top: -5px;
+           text-align: left;
+           color:rgb(15, 139, 170);
+           font-size:4em;}
+      
+        .button{
+        font-size: 1.25em;
+         margin-left:-150px;
+       margin-top: 200px
+           ;}  
+       .icon2{
+           margin-left:10px ;
+           width:60px;
+       }
+       .banner{
+          
+           padding-left: 50px;
+           padding-right: 50px;
+           flex-flow:row nowrap;
+       }
+       .banner2{
+           padding: 30px 30px 30px 30px;
+       }
+     .icon1{
+         width:60px;
+             
+         }
+     
+
+      /* .signature{
+               border-top: 2px solid grey;
+               font-size: 1em;
+               color: grey;
+              
+            } */
+
+/* 
+      .information{
+           margin-left:200px ; } */
+    .navigation a {
+               font-size: clamp(1.5em, 2vmin, 1.5rem);
+           }
+           .information{
+               padding-left:300px;
+           } 
+}   

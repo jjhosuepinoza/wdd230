@@ -1,25 +1,67 @@
-@media (min-width:600px){
-    .join{
-        display: inline-grid;
-        grid-area: join;
-   } 
-    .grid-container{
-        display:grid; 
-        gap:10px;
-        grid-template: 
-        "header header header" auto
-        "chamber chamber chamber " auto
-        "news    news     news"250px
-        "aside aside aside" auto
-        "join join join" auto
-        "event event weather"auto
-        "footer footer footer" auto
-         /1fr 1fr 1fr;
+@media only screen and (min-width: 37.5em) {
+    .navigation {
+        display: flex;
+    }
+    .navigation li {
+        display: block; /* change state in small view */
+        flex: 1 1 auto;
+    }
+    .navigation a {
+        text-align: center;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+
+
+
+
+
+
+.banner2{
+display: flex;
+flex-flow:row nowrap;
+align-items: center;
+justify-content: center;
+
+
+}
+
+.join{
+display: inline-grid;
+grid-area: join;
+} 
+.grid-container{
+display: flex;
+display:grid; 
+gap:10px;
+grid-template: 
+"header header header" auto
+"chamber chamber chamber " 350px
+"news    news     news"250px
+"aside aside aside" auto
+"join join join" auto
+"event event weather"auto
+"footer footer footer" auto
+ /1fr 1fr 1fr;
 }
 .aside{
-    
-            grid-template-columns:25% 25% 50% ;
-            grid-template-areas:
-            "delivery delivery companies" ;
-        } 
+
+    grid-template-columns:25% 25% 50% ;
+    grid-template-areas:
+    "delivery delivery companies" ;
+
+
+
+} 
+.information{
+padding-left:100px;
 }
+.button{
+margin-top: 200px;
+}
+} 
+
+
+
+  
