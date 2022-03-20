@@ -1,4 +1,4 @@
-const requestURL = 'https://jjhosuepinoza.github.io/wdd230/lesson3/data/companies.json';
+const requestURL = 'https://jjhosuepinoza.github.io/wdd230/lesson3/data/data.json';
 const cards = document.querySelector('.cards');
 
 fetch(requestURL).then(function (response) {return response.json();})
