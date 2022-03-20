@@ -7,16 +7,13 @@
     
     <title>Chamber of Commerce</title>
     <meta name = "description" content="Chamber of Commerce" >
-    <link rel="icon" href="images/CAMERA-OF-COMMERCE.webp" alt="logo" >
-    
+    <link rel="icon" href="images/CAMERA-OF-COMMERCE.webp" >
     <link rel="stylesheet" href="css/main.css" >
-    
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-    <link rel="stylesheet" href="css/directory.css">
-    <link rel="stylesheet" href="css/normalize.css" >
-    <link rel="stylesheet" href="css/cards.css">
     
+    <link rel="stylesheet" href="css/normalize.css" >
+    <link rel="stylesheet" href="css/join.css">
 </head>
 
 
@@ -43,13 +40,44 @@
 </div>
 <date></date>
 </header>
-
-<body>
-
-  <div class="cards"></div>
-
-
-<footer class="footer">
+<div class=join_survey>
+    <div>
+    <h3>Contact Pécs Chamber of Commece</h3>
+	<form action="thankyou2.html" method="get">
+        <fieldset>
+            <legend>Personal Information</legend>
+		<label for="fname">First name:</label>
+		<input type="text" id="fname" name="fname" required placeholder="A first name" />
+		<label for="lname">Last name:</label>
+		<input type="text" id="lname" name="lname" required placeholder="A last name" />
+		<label for="email">Email address:</label>
+		<input type="text" id="email" name="email" required placeholder="user@mail.com"/>
+		<label for="phone">Phone number:</label>
+		<input type="phone" id="phone" name="phone" />
+		<label for="subject">Business:</label>
+		<input type="text" id="business" name="subject" />
+    </fieldset>
+        <fieldset>
+            <legend>Write your questions:</legend>
+            <div>
+                
+                <div>
+                    <label><textarea name="description" cols="40" rows="10" id="description"></textarea></label>
+                </div>
+                <div>
+                </fieldset>
+                <button id="btnSubmit" type="submit">Send Information</button>
+                </div>
+                <label><input type="hidden" id="date" name="date"></label>
+            </fieldset>
+            </div>
+        
+      
+		
+	</form>
+</div>
+</div>
+    <footer class="footer">
     <div class="banner2">
     
     
@@ -67,6 +95,6 @@
     <div class ='signature'>&copy;<span id="year">2022</span> | Javier Espinoza| Pécs |<span id="updated"></span></div>
     </footer>
     <script src="js/date.js"></script>
-    <script src="js/directory.js"></script>
+
 </body>
 </html>

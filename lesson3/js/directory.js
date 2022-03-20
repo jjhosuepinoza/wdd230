@@ -14,7 +14,7 @@ fetch(requestURL).then(function (response) {return response.json();})
     let companyAddress = document.createElement('p');
     let companyPhone = document.createElement('p');
     let companySite = document.createElement('a');
-    let logo = document.createElement('img');
+    let companyLogo = document.createElement('img');
 
     companyName.textContent = `${company.name}`; 
     companyAddress.textContent = ` ${company.address}`;
@@ -23,13 +23,13 @@ fetch(requestURL).then(function (response) {return response.json();})
  
   
 
-    logo.setAttribute('src', company.imageurl);
-    logo.setAttribute('alt', `Logo of ${company.name}`);
-    logo.setAttribute('loading', 'lazy');
+    companyLogo.setAttribute('src', company.imageurl);
+    companyLogo.setAttribute('alt', `Logo of ${company.name}`);
+    companyLogo.setAttribute('loading', 'lazy');
     companySite.setAttribute('href', company.site);
     companySite.setAttribute('target', 'blank');
 
-    card.appendChild(logo);
+    card.appendChild(companyLogo);
     card.appendChild(companyAddress);
     card.appendChild(companyPhone);
     card.appendChild(companySite);
@@ -38,6 +38,8 @@ fetch(requestURL).then(function (response) {return response.json();})
     // Add/append the existing HTML div with the cards class with the section(card)
     cards.appendChild(card);
     
+    
+
   }
 
 
