@@ -39,12 +39,7 @@
    }
   .cards a{
     text-decoration: none;
-    color: rgb(245, 237, 237);
+    color: rgb(18, 125, 161);
   }
-  .cards a :hover{
-  color: brown;
-    
-  }
-   /* .cards{
-    flex: 1 1 1;
-} */
+  
+   

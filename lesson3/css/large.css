@@ -109,7 +109,5 @@ grid-template:
     .cards{
         padding: 0 50px 0 50px;
     }
-    .cards .companySite a :hover{
-        color:brown
-    }
+  
 }   
