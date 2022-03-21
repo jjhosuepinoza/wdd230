@@ -9,25 +9,42 @@
 }
 
 .cards{
+    font-size: larger;
+    font-family: sans-serif;
     margin-top: 20px;
     text-align: center;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-   gap: 10px;
+    gap: 10px;
+    
     
  }
    
    
  .cards  >*{
+  
      padding: 5px;
+     font-size: larger;
+     font-weight: bold;
      background-color: rgb(157, 172, 207);
      box-shadow:-1px 1px 7px 0px black;
      border-radius: 4px;
      text-align: center;
  }
  .cards img{
-    height: 260px;
-    width: 360px;
+    height: 240px;
+    width: 340px;
     border-radius: 4px;
    }
+  .cards a{
+    text-decoration: none;
+    color: rgb(245, 237, 237);
+  }
+  .cards a :hover{
+  color: brown;
+    
+  }
+   /* .cards{
+    flex: 1 1 1;
+} */

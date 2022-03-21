@@ -106,4 +106,10 @@ grid-template:
      width: 760px;
      height:  560px;
     }
+    .cards{
+        padding: 0 50px 0 50px;
+    }
+    .cards .companySite a :hover{
+        color:brown
+    }
 }   
