@@ -1,6 +1,7 @@
  .join_survey {
+    display: flex;
     grid-area: join_survey;
-	margin: 0;
+
 	border: 1px solid rgb(128, 147, 156);
 	padding: 0.5rem;
 	text-align: center;
@@ -9,11 +10,12 @@
 
 form {
 	display: grid;
-	grid-gap: 0.25rem;
+	grid-gap: 1rem;
 	grid-template-columns: 1fr 1fr;
-	width: 400px;
 	align-items: center;
+    justify-content: center;
     text-align: center;
+
 }
 
 /* h1 {
@@ -23,8 +25,8 @@ form {
 label,
 input,
 textarea,
-select,
-.button2 {
+select
+ {
 	padding: 0.35rem;
 	font-size: 1.1rem;
 }
@@ -49,8 +51,11 @@ select:focus {
     "footer" auto;
 }
 
-@media (min-width:37.5em){
+/* @media (min-width:37.5em){
 .grid-container{
+    text-align: center;
+    justify-content: center;
+    align-content: center;
     display: flex;
     display:grid; 
     gap:10px;
@@ -58,4 +63,22 @@ select:focus {
     "header header header" auto
     "join_survey join_survey join_survey " auto
     "footer footer footer" auto
-     /1fr 1fr 1fr;}}
+     /1fr 1fr 1fr;}} */
+     .personal{
+         display: flex;
+         flex-direction: column;
+
+     }
+
+     .buttonjoin{
+         font-size: 1.5em;
+         justify-content:right;
+         align-self: right;
+           padding: 10px 10px 10px 10px;
+         color: #17C3B2;;
+         background-color: rgb(3, 78, 112);
+         border-radius: 10px;
+          cursor:pointer;
+           font-size: 1em;
+           font-weight: bolder;
+     }

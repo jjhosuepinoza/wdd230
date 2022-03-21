@@ -54,7 +54,7 @@
     <div>
     <h3>Join Pécs Chamber of Commece</h3>
 	<form action="thankyou.html" method="get">
-        <fieldset>
+        <fieldset class="personal">
             <legend>Personal Information</legend>
 		<label for="fname">First name:</label>
 		<input type="text" id="fname" name="fname" required placeholder="A first name" />
@@ -72,7 +72,7 @@
             <div>
                 <div>
                     <input name="member" id="member1" value="member1" type="radio">
-                    <label for="member1">NP Membership - Free</label>
+                    <label for="member1"><h3>NP Membership - Free</h3></label>
                     <p class="member-des">Nonprofit Membership. </p>
                 </div>
                 <div>
@@ -92,10 +92,13 @@
                 </div>
                 <div>
                     <label>Describe Your Business:<textarea name="description" cols="40" rows="10" id="description"></textarea></label>
+               
                 </div>
+            
                 <div>
+               
                 </fieldset>
-                <button id="btnSubmit" type="submit">Join</button>
+                <button class="buttonjoin" id="btnSubmit" type="submit">Join</button>
                 </div>
                 <label><input type="hidden" id="date" name="date"></label>
             </fieldset>
@@ -104,7 +107,9 @@
       
 		
 	</form>
+    
 </div>
+
 </div>
 <footer class="footer">
     <div class="banner2">
