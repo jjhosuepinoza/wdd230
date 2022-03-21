@@ -1,5 +1,5 @@
 
- @media (min-width:60em){
+@media only screen and (min-width: 60em){
     
     .picture{
         height:120px;
@@ -83,10 +83,27 @@ grid-template:
 /* 
       .information{
            margin-left:200px ; } */
-    .navigation a {
-               font-size: clamp(1.5em, 2vmin, 1.5rem);
-           }
-           .information{
+   
+           .navigation {
+            display: flex;
+        }
+        .navigation li {
+            display: block; /* change state in small view */
+            flex: 1 1 auto;
+        }
+        .navigation a {
+            text-align: center;
+            font-size: clamp(1.5em, 2vmin, 1.5rem);
+        }
+        .navigation li:first-child {
+            display: none;
+        }
+    .information{
                padding-left:300px;
-           } 
+               
+           }
+    main img{
+     width: 760px;
+     height:  560px;
+    }
 }   

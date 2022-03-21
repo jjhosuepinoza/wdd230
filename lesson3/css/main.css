@@ -81,6 +81,7 @@ p{
     grid-area: footer;
     background-color:#17C3B2 ;
     padding: 20px 20px 20px 20px;
+    text-align: center;
 
     }
     /* .information{
@@ -189,9 +190,7 @@ p{
    font-size: 1em;
    font-weight: bolder;
   }
-.location h2{
-    text-align: left;
-}
+
   .button1:hover {
     background-color: white;
     color: #FFCB77;}
@@ -207,10 +206,12 @@ p{
     .banner2{
         padding-bottom: 10px;
     }
+    /* .location h2{text-align: center;} */
 .information{
     display: grid;
     padding:50px 0 50px 0;
     gap:10px;
+    
    
 }
 .information a{
@@ -267,18 +268,5 @@ p{
         content: "✖️ ";
     }
     
-    @media only screen and (min-width: 32.5em) {
-        .navigation {
-            display: flex;
-        }
-        .navigation li {
-            display: block; /* change state in small view */
-            flex: 1 1 auto;
-        }
-        .navigation a {
-            text-align: center;
-        }
-        .navigation li:first-child {
-            display: none;
-        }
-    }
+   
+       
