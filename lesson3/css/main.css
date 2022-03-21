@@ -167,7 +167,8 @@ p{
 }
 
 .button {
-    padding: 0 10px;
+    padding: 10px 10px 10px 10px;
+    font-weight: bolder;
     background-color:  #17C3B2;;
     color: rgb(3, 78, 112); 
     border-radius: 10px;
@@ -178,11 +179,13 @@ p{
   }
 
 .button1 {
-   
+   padding: 10px 10px 10px 10px;
    color: #17C3B2;;
    background-color: rgb(3, 78, 112);
    border-radius: 10px;
    cursor:pointer;
+   font-size: 1em;
+   font-weight: bolder;
   }
 .location h2{
     text-align: left;
