@@ -254,7 +254,7 @@ p{
     
     .navigation a:hover {
         color: white;
-        background-color: gray;
+        background-color: #227C9D;
     }
     
     /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
