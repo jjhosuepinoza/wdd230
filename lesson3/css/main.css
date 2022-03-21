@@ -184,7 +184,9 @@ p{
    border-radius: 10px;
    cursor:pointer;
   }
-
+.location h2{
+    text-align: left;
+}
   .button1:hover {
     background-color: white;
     color: #FFCB77;}
