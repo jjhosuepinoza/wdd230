@@ -23,7 +23,7 @@
    }
 
    .header{
-       /* display:grid; */
+       /* display:grid;
        /* flex-flow: row nowrap; */
        grid-area: header;
        background-color:#17C3B2 ;
