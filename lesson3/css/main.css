@@ -219,47 +219,66 @@ p{
 }
 
      /* navigation bar */
+        
+        
+     nav {
+        margin: 0 auto;
+        max-width: 760px;
+        
+    }
+    .navigation {
+        list-style: none;
+        padding: 0;
+    }
+    .navigation li:first-child {
+        display: block;
+    }
+    .navigation li {
+        display: none;
+    }
+    .navigation a {
+        display: block;
+        padding: 0.75rem;
+        text-align: left;
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
+        transition: 0.5s;
+        font-size: clamp(1rem, 2vmin, 1.5rem);
+    }
+    
+     .navigation a.ham::before {
+        content: "☰";
+    } 
+    
+    .navigation a:hover {
+        color: white;
+        background-color: gray;
+    }
+    
+    /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+      <ul class="navigation responsive">
+    */
+    .responsive li {
+        display: block;
+    }
+    
+    .responsive a.ham::before {
+        content: "✖️ ";
+    }
+    
+    @media only screen and (min-width: 32.5em) {
         .navigation {
-            
-            list-style: none;
-            padding: 0;
-        }
-        .navigation li:first-child {
-            display: block;
+            display: flex;
         }
         .navigation li {
-            display: none;
-            
+            display: block; /* change state in small view */
+            flex: 1 1 auto;
         }
         .navigation a {
-            display: block;
-            padding: 0.75rem;
-            text-align: left;
-            text-decoration: none;
-            color: black;
-            font-weight: 700;
-            transition: 0.5s;
-            font-size: clamp(1em, 2vmin, 1.5rem);
+            text-align: center;
         }
-        
-        .navigation a.ham::before {
-            content: "🍔 ";
+        .navigation li:first-child {
+            display: none;
         }
-        
-        .navigation a:hover {
-            color: white;
-            background-color: gray;
-        }
-        
-        /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
-          <ul class="navigation responsive">
-        */
-        .responsive li {
-            display: block;
-        }
-        
-        .responsive a.ham::before {
-            content: "✖️ ";
-        }
-       
-        
+    }
