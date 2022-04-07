@@ -24,14 +24,15 @@
 			"phone": "(1) 972-991-1273",
 			"site": "https://www.churchofjesuschrist.org/temples/details/dallas-texas-temple?lang=eng",
             "services":"Clothing rental available //n No cafeteria available //n No patron housing available //n Distribution center nearby",
-			"history":"",
+			"history":"Ordinance work in the Dallas Texas Temple has been performed for historical figures of special significance to the citizens of Texas. For example, work was completed in 1986 for those involved in the tragedy at the Alamo on March 6, 1836. In addition, work for 1,500 Choctaw Indians was performed in the temple.6",
             "imageurl": "https://cdn.glitch.global/ae86db83-ee75-4b55-a5f5-319dc6c440b0/dallas_texas_temple.webp?v=1649347752028"
 		},
 		{
 			"name": "Gilbert Arizona Temple",
-			"address": "Apples street 25",
-			"phone": "20 26 45689",
-			"site": "https://green-brands.hu/",
+			"address": "3301 S Greenfield Rd Gilbert AZ 85297 United States",
+			"phone": "(1) 480-822-5000",
+			"site": "https://www.churchofjesuschrist.org/temples/details/gilbert-arizona-temple?lang=eng",
+            "services":"",
 			"imageurl": "https://cdn.glitch.global/ae86db83-ee75-4b55-a5f5-319dc6c440b0/fort_lauderdale_florida_temple.jpeg?v=1649347784099"
 		}	]
 }
