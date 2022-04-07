@@ -22,10 +22,10 @@ gap:10px;
 grid-template: 
 "header header header" auto
 "chamber chamber chamber " 350px
-"news    news     news"250px
+"news    news     news" 250px
 "aside aside aside" auto
 "join join join" auto
-"event event weather"auto
+"event event weather" auto
 "footer footer footer" auto
  /1fr 1fr 1fr;
 }

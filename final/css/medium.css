@@ -1,0 +1,57 @@
+/* @media only screen and (min-width: 37.5em){
+    html {
+        font-size: 65%;
+      }
+    
+      .navbar .menu-items li{
+          font-size: 1.6rem;
+      }
+    
+      .testimonial-container {
+        flex-direction: column;
+        text-align: center;
+      }
+    
+      .food-menu-container img {
+        margin: auto;
+      }
+    
+      .food-menu-item {
+        flex-direction: column;
+        text-align: center;
+      }
+    
+      .form-container {
+        width: 90%;
+      }
+    
+      .contact-container {
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .contact-img {
+        width: 90%;
+        margin: 3rem auto;
+      }
+    
+      .logo {
+        position: absolute;
+        top: 06px;
+        right: 15px;
+        font-size: 3rem;
+      }
+    
+      .navbar .menu-items li {
+        margin-bottom: 2.5rem;
+        font-size: 1.8rem;
+        font-weight: 500;
+      }
+    
+}
+
+@media (orientation: landscape) and (max-height: 37.5em) {
+    .showcase-area {
+      height: 50vmax;
+    }
+  } */
