@@ -12,6 +12,7 @@
           <link rel="stylesheet" href="css/main.css" >
           <link rel="stylesheet" href="css/medium.css">
           <link rel="stylesheet" href="css/large.css">
+          <link rel="stylesheet" href="css/reservation.css">
           <title>The Temple Inn & Suites</title>
           <link
             rel="stylesheet"
@@ -34,9 +35,8 @@
                 </div>
                 <ul class="menu-items">
                     <li><a href="#home">Home</a></li>
-                    <!-- <li><a href="#about">About</a></li> -->
                     <li><a href="temple.html">Temple</a></li>
-                    <li><a href="#services-menu">Reservation</a></li>
+                    <li><a href="reservation.html">Reservation</a></li>
                     <li><a href="#weathers">Services</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li><a href="https://www.facebook.com/"><img class="icon1"  src="images/facebook.webp"></a></li>
@@ -64,15 +64,82 @@
             <div class="showcase-container">
               <h1 class="main-title" id="home">The Temple Inn & Suites</h1>
             
-              <a href="#services-menu" class="btn btn-primary">RESERVE</a>
+            
             </div>
           </section>
-    <section>
+  <section class="form-reservation">
+    <div class="container-fluid">
+		<h1 class="text-center">RESERVATION</h1>
+	
+<div class="contendor row">
+	<div class="col-md-6 col-md-offset-3">
+		<div class="content-form">
+			<form action="" class="form-horizontal">
+			<div class="form-group">
+				<label for="" class="col-sm-2 control-label">Name</label>
+				<div class="col-sm-10">
+      <input type="text" class="form-control" id="txtName" placeholder="Name" required>
+    </div>
+			</div>
+			
+			<div class="form-group">
+				<label class="col-sm-2 control-label">Last Name</label>
+				<div class="col-sm-10">
+				<input type="text" class="form-control" id="txtLName" placeholder="Last Name" required />
+				</div>		
+			</div>
+			
+			<div class="form-group">
+				<label class="col-sm-2 control-label">Id</label>
+				<div class="col-sm-10">
+				<input type="text" class="form-control" id="txtID" placeholder="Id"required />
+				</div>		
+			</div>
+			
+			<div class="form-group">
+				<label class="col-sm-2 control-label">Room</label>
+				<div class="col-sm-10">
+				<input type="number" min="1" max="20" id="txtRoom" class="form-control" required/>
+				</div>		
+			</div>
+				
+			<div class="form-group">
+			<label for="" class="col-sm-2 control-label">Check In</label>
+						<div class="col-sm-10">
+				<input type="date" id="txtCheckIn" class="form-control" required/>
+				</div>
+			</div>
+	
+			<div class="form-group">
+				<label for="" class="col-sm-2 control-label">Check Out</label>
+					<div class="col-sm-10">
+				<input type="date" id="txtCheckOut" class="form-control"required />
+				</div>
+			</div>
+			
+			<div class="form-group">
+			<label for="" class="col-sm-2 control-label">Adults</label>
+				<div class="col-sm-10">
+				<input type="number" max="100" id="txtAdult" min="1"class="form-control" required/>
+				</div>
+			</div>
+				<div class="form-group">
+			<label for="" class="col-sm-2 control-label">Children</label>
+				<div class="col-sm-10">
+				<input type="number" max="100" id="txtChildren" min="1"class="form-control" required />
+				</div>
+					
+			</div>
+			<button type="button" class="btn btn-warning btn-lg btn-block" id="saved">Send</button>
+		</form>
+		</div>
+	</div>
+
+</div>
+</div>
 
 
-
-        
-    </section>
+  </section>
 
         
          
@@ -92,7 +159,8 @@
         </body>
         
       
-           
+                 
+         <script src="js/reservation.js"></script>
          <script src="js/date.js"></script>
           <script src="js/main.js"></script>
       </html>

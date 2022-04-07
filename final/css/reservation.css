@@ -1,0 +1,16 @@
+.form-reservation{
+   
+	background-color:#00405d;
+	font-family: 'Montserrat', sans-serif;
+	color: #e67e22;
+    text-align: center;
+}
+
+
+
+.content-form{
+	padding:30px;
+	margin-top:40px;
+	background-color:#062f3c;
+	border-radius: 10px;	
+}
