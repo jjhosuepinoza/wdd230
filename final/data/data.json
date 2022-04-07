@@ -1,0 +1,30 @@
+{
+	"Temples": [{
+			"name": "Andersen",
+			"address": " Rein street 52",
+			"phone": " 20 26 12345",
+			"site": "https://hu.andersen.com/",
+			"imageurl": "https://cdn.glitch.global/b6de83ad-1877-4ed7-8cf4-34934d3cadee/andersen.png?v=1646534752120"
+		},
+		{
+			"name": "Coop",
+			"address": "Roots street 42",
+			"phone": "20 26 13452",
+			"site": "https://www.coop.hu/",
+			"imageurl": "https://cdn.glitch.global/b6de83ad-1877-4ed7-8cf4-34934d3cadee/coop.png?v=1646534756961"
+		},
+		{
+			"name": "Folprint",
+			"address": "Wings street 23",
+			"phone": "20 26 78945",
+			"site": "https://folprintnyomda.hu/",
+			"imageurl": "https://cdn.glitch.global/b6de83ad-1877-4ed7-8cf4-34934d3cadee/folprint.jfif?v=1646534759827"
+		},
+		{
+			"name": "Green Brand",
+			"address": "Apples street 25",
+			"phone": "20 26 45689",
+			"site": "https://green-brands.hu/",
+			"imageurl": "https://cdn.glitch.global/b6de83ad-1877-4ed7-8cf4-34934d3cadee/green.jfif?v=1646534762577"
+		}	]
+}
