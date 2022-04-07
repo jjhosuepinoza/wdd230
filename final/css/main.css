@@ -450,6 +450,10 @@ text-align: center;
   background: #4cc9f0;
 }
 
+.cards{
+    text-align: center;
+}
+
 /* ......../ media query /.......... */
 
 @media (max-width: 768px) {

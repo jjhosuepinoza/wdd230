@@ -14,7 +14,7 @@ fetch(requestURL).then(function (response) {return response.json();})
     let templeAddress = document.createElement('p');
     let templePhone = document.createElement('p');
     let templeSite = document.createElement('a');
-    let templeLogo = document.createElement('img');
+    let templePic = document.createElement('img');
 
     templeName.textContent = `${temple.name}`; 
     templeAddress.textContent = ` ${temple.address}`;
@@ -23,13 +23,16 @@ fetch(requestURL).then(function (response) {return response.json();})
  
   
 
-    templeLogo.setAttribute('src', temple.imageurl);
-    templeLogo.setAttribute('alt', `Logo of ${temple.name}`);
-    templeLogo.setAttribute('loading', 'lazy');
+    templePic.setAttribute('src', temple.imageurl,);
+    templePic.setAttribute('alt', `Logo of ${temple.name}`);
+    templePic.setAttribute('loading', 'lazy');
     templeSite.setAttribute('href', temple.site);
     templeSite.setAttribute('target', 'blank');
+    
+    templePic.width=500
+    templePic.height=350
 
-    card.appendChild(templeLogo);
+    card.appendChild(templePic);
     card.appendChild(templeAddress);
     card.appendChild(templePhone);
     card.appendChild(templeSite);
