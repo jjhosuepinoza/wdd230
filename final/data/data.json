@@ -1,30 +1,37 @@
 {
 	"Temples": [{
-			"name": "Andersen",
-			"address": " Rein street 52",
-			"phone": " 20 26 12345",
-			"site": "https://hu.andersen.com/",
-			"imageurl": "https://cdn.glitch.global/b6de83ad-1877-4ed7-8cf4-34934d3cadee/andersen.png?v=1646534752120"
+			"name": "Brigham City Utah Temple",
+			"address": " 250 S Main St Brigham City UT 84302-2560 United States",
+			"phone": "(1) 435-695-2170",
+			"site": "https://www.churchofjesuschrist.org/temples/details/brigham-city-utah-temple?lang=eng/",
+            "services":"No clothing rental available \\n No cafeteria available \\n No patron housing available \\n Distribution center nearby",
+			"history":"The Brigham City Utah Temple will be the fourteenth temple built in Utah and the first built in Box Elder County. //n The Brigham City Utah Temple District covers the same region as the original Box Elder Stake. //n The Brigham City Utah Temple won the PCI Design Award for Best Religious Structure in 2014. PCI stands for the Precast/Prestressed Concrete Institute.",
+            
+            "imageurl": "https://cdn.glitch.global/ae86db83-ee75-4b55-a5f5-319dc6c440b0/brigham_city_utah_temple_dawn.webp?v=1649347722259"
 		},
 		{
-			"name": "Coop",
-			"address": "Roots street 42",
-			"phone": "20 26 13452",
-			"site": "https://www.coop.hu/",
-			"imageurl": "https://cdn.glitch.global/b6de83ad-1877-4ed7-8cf4-34934d3cadee/coop.png?v=1646534756961"
+			"name": "Las Vegas Nevada Temple",
+			"address": "827 Temple View Dr Las Vegas NV 89110-2920 United States",
+			"phone": "(1) 702-452-5011",
+			"site": "https://www.churchofjesuschrist.org/temples/details/las-vegas-nevada-temple?lang=eng",
+            "services":"Clothing rental available //n No cafeteria available //n No patron housing available //n Distribution center nearby",
+			"history":"Sitting on the eastern edge of the city—far from the glitz and glamour of the world-famous Las Vegas Strip—the Las Vegas Nevada Temple is a spiritual beacon in the City of Lights. The six soaring spires rising from the building echo the arresting red desert peaks of nearby Sunrise Mountain. Flourishing flowers and trees adorn the verdant grounds of the temple. Visitors are welcome to walk the surrounding pathways to feel the peace that eminates from this sacred structure.",
+            "imageurl": "https://cdn.glitch.global/ae86db83-ee75-4b55-a5f5-319dc6c440b0/las_vegas_temple_lds.webp?v=1649347744452"
 		},
 		{
-			"name": "Folprint",
-			"address": "Wings street 23",
-			"phone": "20 26 78945",
-			"site": "https://folprintnyomda.hu/",
-			"imageurl": "https://cdn.glitch.global/b6de83ad-1877-4ed7-8cf4-34934d3cadee/folprint.jfif?v=1646534759827"
+			"name": "Dallas Texas Temple",
+			"address": "6363 Willow Ln Dallas TX 75230-2227 United States",
+			"phone": "(1) 972-991-1273",
+			"site": "https://www.churchofjesuschrist.org/temples/details/dallas-texas-temple?lang=eng",
+            "services":"Clothing rental available //n No cafeteria available //n No patron housing available //n Distribution center nearby",
+			"history":"",
+            "imageurl": "https://cdn.glitch.global/ae86db83-ee75-4b55-a5f5-319dc6c440b0/dallas_texas_temple.webp?v=1649347752028"
 		},
 		{
-			"name": "Green Brand",
+			"name": "Gilbert Arizona Temple",
 			"address": "Apples street 25",
 			"phone": "20 26 45689",
 			"site": "https://green-brands.hu/",
-			"imageurl": "https://cdn.glitch.global/b6de83ad-1877-4ed7-8cf4-34934d3cadee/green.jfif?v=1646534762577"
+			"imageurl": "https://cdn.glitch.global/ae86db83-ee75-4b55-a5f5-319dc6c440b0/fort_lauderdale_florida_temple.jpeg?v=1649347784099"
 		}	]
 }
