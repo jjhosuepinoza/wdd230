@@ -38,11 +38,11 @@ body {
 
 .btn-primary {
   color: #fff;
-  background: #16a083;
+  background: #4cc9f0;
 }
 
 .btn-primary:hover {
-  background: #117964;
+  background: #4361ee;
   transition: background 0.3s ease-in-out;
 }
 
@@ -87,13 +87,13 @@ body {
 
 .menu-items a {
   text-decoration: none;
-  color: #444;
+  color: black;
   font-weight: 500;
   transition: color 0.3s ease-in-out;
 }
 
 .menu-items a:hover {
-  color: #117964;
+  color: #4361ee;
   transition: color 0.3s ease-in-out;
 }
 
@@ -376,7 +376,7 @@ body {
 
 #contact {
   padding: 5rem 0;
-  background: rgb(226, 226, 226);
+  background: #caf0f8;
 }
 
 .contact-container {
@@ -444,7 +444,7 @@ body {
   padding: 2.6rem;
   font-weight: 500;
   color: #fff;
-  background: rgb(65, 65, 65);
+  background: #4cc9f0;
 }
 
 /* ......../ media query /.......... */
