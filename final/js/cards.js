@@ -22,7 +22,7 @@ fetch(requestURL).then(function (response) {return response.json();})
     templeAddress.textContent = ` ${"Address: "+ temple.address}`;
     templePhone.textContent = ` ${"Phone: " + temple.phone}`;
     templeEmail.textContent = ` ${temple.site}`;
-    templeService.textContent = ` ${"Services //n" + temple.services}`;
+    // templeService.textContent = ` ${"Services //n" + temple.services}`;
 
 
     templePic.setAttribute('src', temple.imageurl,);
