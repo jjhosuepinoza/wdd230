@@ -13,30 +13,33 @@ fetch(requestURL).then(function (response) {return response.json();})
     let templeName = document.createElement('h2');
     let templeAddress = document.createElement('p');
     let templePhone = document.createElement('p');
-    let templeSite = document.createElement('a');
+    let templeService = document.createElement('p');
+    let templeHistory = document.createElement('p');
+    let templeEmail = document.createElement('a');
     let templePic = document.createElement('img');
 
     templeName.textContent = `${temple.name}`; 
-    templeAddress.textContent = ` ${temple.address}`;
-    templePhone.textContent = ` ${temple.phone}`;
-    templeSite.textContent = ` ${temple.site}`;
- 
-  
+    templeAddress.textContent = ` ${"Address: "+ temple.address}`;
+    templePhone.textContent = ` ${"Phone: " + temple.phone}`;
+    templeEmail.textContent = ` ${temple.site}`;
+    templeService.textContent = ` ${"Services //n" + temple.services}`;
+
 
     templePic.setAttribute('src', temple.imageurl,);
     templePic.setAttribute('alt', `Logo of ${temple.name}`);
     templePic.setAttribute('loading', 'lazy');
-    templeSite.setAttribute('href', temple.site);
-    templeSite.setAttribute('target', 'blank');
+    templeEmail.setAttribute('href', temple.site);
+    templeEmail.setAttribute('target', 'blank');
     
     templePic.width=500
     templePic.height=350
 
+    card.appendChild(templeName)
     card.appendChild(templePic);
     card.appendChild(templeAddress);
     card.appendChild(templePhone);
-    card.appendChild(templeSite);
-    
+    card.appendChild(templeEmail);
+    card.appendChild(templeService)
   
     // Add/append the existing HTML div with the cards class with the section(card)
     cards.appendChild(card);
