@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #333;
+  text-align: center;
+
+}
+
+
+
+main{grid-area: main;}
+/* capitalize */
+.post-date, nav{
+    text-transform: uppercase;
+    grid-area: post-date;
+}
+.post-content{
+    grid-area: post-content;
+}
+nav {
+  
+    border-bottom: 1px solid rgb(68, 67, 67);
+    border-top: 1px solid rgb(68, 67, 67);
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+    margin: 10px;
+  }
+  a{
+text-decoration: none;};
+header h1 {
+  
+    font-weight: bold;
+    color: #333;
+}
+header h1 a {
+    
+    font-size: 2em;
+  color: #333;
+  font-family: 'Lora', serif;
+  text-decoration: none;
+}
+
+header h1 a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+nav a {
+  color: #666;
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: #666;
+  text-decoration: none;
+}
+
+nav a:active {
+  color: #DEB887;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #00ddff;
+  text-decoration: none;
+}
+
+article .post-date {
+  color: #d0d0d0;
+}
+.post-date{
+    font-size: larger;
+    text-align: right;
+    border-bottom: 1px solid rgb(68, 67, 67);
+}
+
+
+@media only screen and (min-width: 600px) {
+
+    .header h1{
+        grid-area: header h1;
+    }
+    nav{ grid-area:nav;}
+   
+    
+  body div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  
+    grid-template-areas: 'header header header header' 
+                         'post-date post-content post-content post-content' 
+                        'post-date post-content post-content post-content'
+                         'post-date post-content post-content post-content';
+  }
+  .post-date{
+    text-align: left;
+  }
+}
